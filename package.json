@@ -5,13 +5,15 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "pkg --out-path executable generator.js",
-    "build": "npx copyfiles -u 3 node_modules/reveal.js/dist/**/* dist/reveal"
+    "compile": "pkg --out-path dist generator.js",
+    "build": "npx rimraf dist/.programfiles && npx copyfiles -u 3 node_modules/reveal.js/dist/**/* dist/.programfiles/public/reveal.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "copyfiles": "^2.4.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
     "opener": "^1.5.2",
     "pkg": "^5.7.0",
     "reveal.js": "^4.3.1",
