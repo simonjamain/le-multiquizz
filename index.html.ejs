@@ -2,22 +2,40 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="/reveal.js/reveal.css">
-	<link rel="stylesheet" href="/reveal.js/black.css">
+	<link rel="stylesheet" href="/public/reveal.js/dist/reset.css">
+	<link rel="stylesheet" href="/public/reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="/public/reveal.js/dist/theme/black.css">
+	
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="/public/reveal.js/plugin/highlight/monokai.css">
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section>Slide 1
-				<h2>ki cé ki ?</h2>
-				<p class="fragment" style="font-size: 0.6em !important;">
-				les règles sont toutes bien écrites oui oui oui
-				</p>
-			</section>
+			<section>Slide 1</section>
 			<section>Slide 2</section>
 		</div>
 	</div>
-</body>
 
+	
+	<script src="/public/reveal.js/dist/reveal.js"></script>
+	<script src="/public/reveal.js/plugin/notes/notes.js"></script>
+	<script src="/public/reveal.js/plugin/markdown/markdown.js"></script>
+	<script src="/public/reveal.js/plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+		});
+	</script>
+</body>
+<script>
+
+</script>
 </html>

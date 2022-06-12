@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "pkg --out-path dist generator.js",
-    "build": "npx rimraf dist/.programfiles && npx copyfiles -u 3 node_modules/reveal.js/dist/**/* dist/.programfiles/public/reveal.js"
+    "compile": "pkg --out-path dist main.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,16 @@
     "pkg": "^5.7.0",
     "reveal.js": "^4.3.1",
     "rimraf": "^3.0.2"
+  },
+  "pkg": {
+    "outputPath": "dist",
+    "targets": [
+      "node12-linux-x64",
+      "node12-macos-x64",
+      "node12-win-x64"
+    ],
+    "assets": [
+      "node_modules/reveal.js/**/*"
+    ]
   }
 }

@@ -1,9 +1,24 @@
-import 'reveal.js/dist/reveal.css'
-// see available themes in the
-// node_modules/reveal.js/dist/theme
-//  beige, black, blood, league, moon, night, serif, simple, ...
-import 'reveal.js/dist/theme/sky.css'
-import Reveal from 'reveal.js'
+const express = require('express')
+const path = require('path');
+const opener = require("opener")
+const ejs = require('ejs')
+const app = express()
 
-const deck = new Reveal()
-deck.initialize({ hash: true, slideNumber: true })
+app.use("/public/reveal.js", express.static(path.join(__dirname, "node_modules/reveal.js")));
+
+app.get('/', function (req, res) {
+	console.log("appel")
+	ejs.renderFile(path.join(__dirname,"index.html.ejs"), {}, {}, function(err, str){
+		console.log(err)
+		console.log(str)
+		res.send(str)
+	});
+})
+
+// auto available port, cf. https://stackoverflow.com/a/54464386 
+const server = app.listen(0, () => {
+	console.log('Listening on port:', server.address().port)
+	opener(`http://localhost:${server.address().port}`)
+  });
+
+  //https://github.com/vercel/pkg/issues/245
