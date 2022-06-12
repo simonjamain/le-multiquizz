@@ -13,8 +13,15 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section>Slide 1</section>
-			<section>Slide 2</section>
+			<% games.forEach(function(game){ %>
+				<% const triviaThemesFilePath = path.join(game.fullPath, "trivia.yml") %> 
+				
+				<section>
+					<h1><%= game.name %></h1>
+				</section>
+
+				<%- include(`templates/${game.template}.html.ejs`, {name: game.name, fullPath: game.fullPath, path, YAML, fs}); %>
+			<% }); %>
 		</div>
 	</div>
 

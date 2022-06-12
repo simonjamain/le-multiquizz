@@ -1,0 +1,13 @@
+
+	<%
+		const triviaThemesFilePath = path.join(fullPath, "trivia.yml")
+		const triviaThemesFile = fs.readFileSync(triviaThemesFilePath, 'utf8')
+		const triviaThemes = YAML.parse(triviaThemesFile)
+		console.log(triviaThemes)
+	%>
+
+<section id="trivia-index">
+	<% triviaThemes.forEach(theme => { %>
+		<a href="#/<%= theme["title"].replace(/\s+/, "").replace(/[^0-9A-Za-z]/, '') %>"><%= theme["title"] %></a> <br>
+	<% }); %>
+</section>

@@ -1,0 +1,294 @@
+---
+- title: ki ka dit ca
+  questions:
+  - text: la routourne va vite tourner.
+    answers:
+    - Nabilla
+    - Frank Ribéry
+    - Mickael Vendetta
+    - Christophe Dechavanne
+    goodAnswerIndex: 1
+  - text: Selon les statistiques, il y a une personne sur cinq qui est déséquilibrée.
+      s'il y a 4 personnes autour de toi et qu'elles te semblent normales, c'est pas
+      bon.
+    answers:
+    - Coluche
+    - Jean-Claude Van Damme
+    - Serge Gainsbourg
+    - Un grignol (boulette de caca collé aux poils de cul, notamment chez les animaux)
+    goodAnswerIndex: 1
+  - text: Chui un glouton barjo ouais !
+    answers:
+    - Rick (Rick & Morty)
+    - Cartman
+    - un type déguisé en cacahuette géante
+    - Stan Marsh
+    goodAnswerIndex: 2
+  - text: Ce tombeau sera votre tombeau !
+    answers:
+    - Ouhécharlis
+    - Nexusis
+    - Malococsis
+    - Jean-Christophe
+    goodAnswerIndex: 1
+  - text: La différence qu'il y a entre les oiseaux et les hommes politiques, c'est
+      que de temps en temps les oiseaux s'arrêtent de voler !
+    answers:
+    - Coluche
+    - Pierre Desproges
+    - Dieudoné
+    - Bernard Tapie
+    goodAnswerIndex: 0
+- title: ki ka chanté ca
+  questions:
+  - text: si y'avait des bites par terre y'en a qui marcheraient sur le cul
+    answers:
+    - Kaaris
+    - La Fouine
+    - Booba
+    - Mathieu Chedid
+    goodAnswerIndex: 2
+    youtubeID: H0-JBGsV9Mo
+    time: 20
+    note: Le Météore, Ouest Side, 2006
+  - text: ma frappe ya personne qui l’arrête
+    answers:
+    - Rohff
+    - Disiz la peste
+    - PNL
+    - Mathieu Chedid
+    goodAnswerIndex: 2
+    youtubeID: 9PODnRarD78
+    time: 17
+    note: DA, Dans La légende, 2016
+  - text: j'ai la poupée d'E.T. dans ma golf GTI
+    answers:
+    - maître Gims
+    - MHD
+    - Booba
+    - Mathieu Chedid
+    goodAnswerIndex: 3
+    youtubeID: w3sSGZlWLP4
+    time: 46
+    note: Machistador, Le Baptème, 1997
+  - text: one two three four uno dos tres cuatro
+    answers:
+    - Ricky Martin
+    - Pitbull
+    - Juanes
+    - Fernando Alonso
+    goodAnswerIndex: 1
+    youtubeID: E2tMV96xULk
+    time: 11
+    note: I Know You Want Me (Calle Ocho), Rebelution, 2009
+  - text: les sourires, les regards, qui parlaient d'éternité. Tous ces mots que l'on
+      jure, de ne jamais oublier
+    answers:
+    - Lara Fabian
+    - Larusso
+    - Céline Dion
+    - Thierry Roland
+    goodAnswerIndex: 1
+    youtubeID: NIZMpbb9FRA
+    time: 64
+    note: Tu m'oublieras, single, 1998
+- title: Goslinou
+  questions:
+  - text: qui à l’immense honneur de partager la couche du majestueux Ryan Gosling
+      (dans la vraie vie réelle) ?
+    answers:
+    - Emma stone
+    - Eva mendes
+    - Winnie Harlow
+    - Patrick Sébastien (Patoche pour les intimes)
+    goodAnswerIndex: 1
+  - text: Si Ryan Gosling et dans la moyenne capilaire, combien à t'il de cheveux?
+    answers:
+    - environ 120 000
+    - environ 450 000
+    - environ 2 500 000
+    - zero, il porte une perruque c'est obligé, on peut pas être réèllement aussi
+      stylé
+    goodAnswerIndex: 1
+    note: Une personne en a en moyenne 100 000 à 150 000 sur le crâne. Mais ce nombre
+      dépend de plusieurs facteurs, à commencer par la couleur. Les cheveux clairs,
+      plus fins, ont en effet tendance à être plus nombreux.
+  - text: Ryan gosling est-il beau ?
+    answers:
+    - oui
+    - oui
+    - oui
+    - non, enfin je suis pas trop sur en fait
+    goodAnswerIndex: 0
+    note: Les réponses B et C sont également acceptées.
+  - text: 'Ryan, c’est : '
+    answers:
+    - Une beauté à la fois virile et candide, le tout ornementé d’un sourire très
+      charmeur.
+    - Composé de flèches et de molécules, et d'électricité,comme le Big-Bang tu vois,
+      et tout ça ensemble, ça forme l'Univers.
+    - Lui, et Dieu, dans le même corps. Si on peut les unifier, ils deviennent ce
+      qu'on appelle les miracles, et chaque personne a le seigneur en soi.
+    - Qui déjà ?
+    goodAnswerIndex: 0
+    note: "<strong>+1pt</strong> pour l'équipe de la personne qui à trouvé que B ou
+      C étaient des citations de JCVD (cumulable)."
+  - text: 'Ryan gosling à dit :'
+    answers:
+    - Si les filles qui rêvent devant ma photo me voyaient au réveil !
+    - Je suis pour le mariage, mais surtout au cinéma !
+    - Je ne me perçois pas comme un homme particulièrement séduisant.
+    - Et on fait tourner les serviettes !
+    goodAnswerIndex: 2
+    note: 'A : Brad Pitt, B : Georges Clooney, <strong>+1pt</strong> à l''équipe de
+      celui qui à fait remarquer qu''il manque la majuscule à gosling dans la question.'
+- title: Culture mon général
+  questions:
+  - text: classez ces grades de l’armée de terre française du plus qui pèze au plus
+      qui pue
+    answers:
+    - lieutenant, adjudant, sergent
+    - sergent, lieutenant, adjudant
+    - lieutenant, sergent, adjudant
+    - Chuck Norris, les autres
+    goodAnswerIndex: 0
+  - text: épelez le mot “sierra” avec l’alphabet phonétique de l’OTAN (alphabet radio
+      international)
+    answers:
+    - sigma, india, roma, roma, alpha
+    - socom, idra, rambo, rambo, alpha
+    - sierra, india, romeo, romeo, alpha
+    - a la toupie, la toupa, la toupina macarena
+    goodAnswerIndex: 2
+  - text: 'Quelle est la signification de l’acronyme OTAN ? (bonus <strong>+1pt</strong>
+      :  quelle est la différence entre un sigle et un acronyme ?)'
+    answers:
+    - Organisation Territoriale Amérique et Nord-europe
+    - Organisation Territoriale des Amériques et pays du Nord
+    - Organisation du Traité Atlantique Nord
+    - On T’ANcule
+    goodAnswerIndex: 2
+    note: Un acronyme et un sigle que l'on pronone comme un mot à part entière.
+  - text: Combien d’étoiles les plus hauts généraux de l’armée de terre possèdent-ils
+      sur leur insigne ?
+    answers:
+    - '1'
+    - '5'
+    - '3'
+    - autant qu’il y a d’étoiles dans les yeux du führer !
+    goodAnswerIndex: 1
+  - text: Quel était le pistolet règlementaire de l’armée de terre américaine pendant
+      les deux guerres mondiales ?
+    answers:
+    - Smith & Wesson M1917
+    - Beretta 92
+    - Colt 1911 (colt 45)
+    - un pistolet à eau rempli de pipi
+    goodAnswerIndex: 2
+- title: orel & gringe
+  questions:
+  - text: 'D’après Orel : si t’aime ta meuf parce que c’est pas une traînée, pourquoi
+      tu trompe ta meuf ?'
+    answers:
+    - parce qu’elle sait pas bien sucer
+    - parce que ta envie de la tromper
+    - parce que c’est pas une traînée
+    - parce qu'un éléphant ça trompe énormément
+    goodAnswerIndex: 2
+    youtubeID: a1t3aR7VI9E
+    time: 32
+  - text: 'D’après Gringe : à combien de traits est on en sécurité, à combien est
+      on en danger ?'
+    answers:
+    - 2 trait sécurité 1 traits danger
+    - 2 trait sécurité 2 traits danger
+    - 1 trait sécurité 2 traits danger
+    - je m’en fout de toute façon je prend le vélo et je mange vegan
+    goodAnswerIndex: 2
+    youtubeID: a1t3aR7VI9E
+    time: 23
+    note: Gringe fait ici référence à la consommation de cocaïne.
+  - text: D’après Orel, en cas de contrôle alcootest imminent et potentiellement positif,
+      que ne PAS faire ?
+    answers:
+    - ne pas insulter l’agent de la maréchaussée
+    - ne pas accélérer pour espérer qu’ils ne te rattrapent pas
+    - ne pas souffler dans l’alcootest (tout simplement)
+    - ne pas mettre son vomi dans son anus, le ressortir, et le remanger pour faire
+      l’intéressant
+    goodAnswerIndex: 1
+    youtubeID: aGqAKgMpDV4
+    time: 16
+  - text: D’après Gringe, quelles sont les conséquences si tu roule comme un meurtrier
+      ?
+    answers:
+    - piéton, crash, prison
+    - radar, flash, photo
+    - mamie, morgue, barreaux
+    - yolo, yolo, yolo
+    goodAnswerIndex: 1
+    youtubeID: a1t3aR7VI9E
+    time: 49
+  - text: D’après Orel, que se passerait t’il si c’était si facile ?
+    answers:
+    - ce serait déjà fait
+    - tout le monde le ferait
+    - on en serait plus là
+    - ce serait moins difficile
+    goodAnswerIndex: 1
+    youtubeID: KIwHrPHS-4k
+    time: 121
+- title: Techno
+  questions:
+  - text: 'Finissez ce refrain : "techno, toujours pareil,"'
+    answers:
+    - boum boum dans les oreilles, musique de défonceman, pas de message, normal,
+      rien à dire.
+    - boum boum dans les oreilles, musique de défonceman, rien à dire, pas de message,
+      normal.
+    - boum boum dans les oreilles, musique de défonceman, rien à dire, normal, pas
+      de message.
+    - boum le meuble dans l’orteil, aie ça fait mal.
+    goodAnswerIndex: 0
+    youtubeID: x537Cqg5nEI
+    time: 125
+  - text: Quel était le concurrent historique du VHS
+    answers:
+    - le DVD
+    - le betamax
+    - le MiniDisc
+    - le subutex
+    goodAnswerIndex: 1
+  - text: De quel type de musique est cet extrait
+    sound: n9ceoqGxGkw
+    time: 396
+    answers:
+    - Dark techno
+    - Breakbeat
+    - Hard trance
+    - Chanson paillarde du poitou
+    goodAnswerIndex: 2
+    note: On s'en fout de toute façon, la techno c'est toujours pareil, ça fait boum
+      boum dans les oreilles, c'est de la musique de défonceman, ya pas de message,
+      normal, ya rien à dire.
+  - text: |-
+      que contient la variable javascript yolo après exécution du code suivant ?
+      var yeah = ["fuk", "bitchiz", "get", "moné"];
+      yolo = yeah[yeah[yeah.length-yeah["PD".length].length].length]
+    answers:
+    - '"moné"'
+    - '"fuk"'
+    - '"bitchiz"'
+    - undefined
+    goodAnswerIndex: 3
+    note: Et oui on appelle la valeur en index 7 ("bitchiz".length) du tableau yeah
+      qui ne comporte que 4 éléments (index 3 maximum).
+  - text: Que veut dire l’acronyme HTTP ?
+    answers:
+    - Hybrid TeleText Protocol
+    - HyperText Transfert Protocol
+    - Hyperlink Text Tethering Protocol
+    - Hyper Tetra-octet Traplégic Proctologue
+    goodAnswerIndex: 1
+    note: "<strong>+5pt</strong> bonus à l’équipe de celui qui à fait remarquer que
+      HTTP est simplement un sigle et non un acronyme"
