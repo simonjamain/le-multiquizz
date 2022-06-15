@@ -3,7 +3,6 @@
 		const triviaThemesFilePath = path.join(fullPath, "trivia.yml")
 		const triviaThemesFile = fs.readFileSync(triviaThemesFilePath, 'utf8')
 		const triviaThemes = YAML.parse(triviaThemesFile)
-		console.log(triviaThemes)
 	%>
 
 <section id="trivia-index">
@@ -11,3 +10,89 @@
 		<a href="#/<%= theme["title"].replace(/\s+/, "").replace(/[^0-9A-Za-z]/, '') %>"><%= theme["title"] %></a> <br>
 	<% }); %>
 </section>
+
+<% triviaThemes.forEach(theme => {  %>
+	<section id="<%= theme["title"].replace(/\s+/, "").replace(/[^0-9A-Za-z]/, '') %>">
+		<h2><%= theme["title"] %></h2>
+	</section>
+	<% theme["questions"].forEach(question => { %>
+
+		<section data-transition="fade-out">
+			<h3><%= theme["title"] %></h3>
+			<blockquote style="font-size: 0.6em !important;">
+				<%= question["text"] %>
+			</blockquote>
+			<table class="trivia-answers">
+				<tr>
+					<td><div class="answer"><span>A</span><br><%= question["answers"][0] %></div></td>
+					<td><div class="answer"><span>B</span><br><%= question["answers"][1] %></div></td>
+				</tr>
+				<tr>
+					<td><div class="answer"><span>C</span><br><%= question["answers"][2] %></div></td>
+					<td><div class="answer"><span>D</span><br><%= question["answers"][3] %></div></td>
+				</tr>
+			</table>
+		</section>
+		<section data-transition="fade-in">
+			<h3><%= theme["title"] %></h3>
+			<blockquote style="font-size: 0.6em !important;">
+				<%= question["text"] %>
+			</blockquote>
+			<table class="trivia-answers">
+				<tr>
+					<td><div class="answer<%= question["goodAnswerIndex"] == 0 ? " good-answer" : '' %>"><span>A</span><br><%= question["answers"][0] %></div></td>
+					<td><div class="answer<%= question["goodAnswerIndex"] == 1 ? " good-answer" : ''%>"><span>B</span><br><%= question["answers"][1] %></div></td>
+				</tr>
+				<tr>
+					<td><div class="answer<%= question["goodAnswerIndex"] == 2 ? " good-answer" : '' %>"><span>C</span><br><%= question["answers"][2] %></div></td>
+					<td><div class="answer<%= question["goodAnswerIndex"] == 3 ? " good-answer" : '' %>"><span>D</span><br><%= question["answers"][3] %></div></td>
+				</tr>
+			</table>
+			<p style="font-size: 0.6em !important;"><%= question["note"] || '' %></p>
+		</section>
+	
+	<% }); %>
+	<section>
+		<h3>thème terminé</h3>
+		<a href="#/trivia-index">retour index</a>
+	</section>
+<% }); %>
+</section>
+<style>
+	.trivia-answers td {
+		text-align: center !important;
+		border-bottom: none !important;
+		padding: 0.5em !important;
+		width: 50%;
+	}
+
+	.trivia-answers td .answer {
+
+		background-color: rgba(205, 205, 205, 0.821);
+		border-radius: 0.2em;
+		padding: 0.2em;
+	}
+
+	.trivia-answers td .answer>span {
+		color: black;
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	.trivia-answers td .good-answer {
+		background-color: rgba(44, 216, 25, 0.5) !important;
+	}
+
+	.theme-reminder {
+		font-size: 0.8em !important;
+		opacity: 0.5 !important;
+	}
+
+	blockquote:before {
+		content: "“";
+	}
+
+	blockquote:after {
+		content: "”";
+	}
+</style>
